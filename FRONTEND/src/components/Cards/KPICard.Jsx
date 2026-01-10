@@ -20,3 +20,9 @@ const KPICard = ({icon:Icon,title,value,change,colour}) => {
 
 // Fallback color if invalid key is passed 
 const appliedColor = colorClasses[color] || "text-gray-600"; 
+
+return (
+    <div className= "big-white p-6 rounded-xl shadow-md hover:lg transition-all cursor-pointer">
+        
+    </div>
+);
