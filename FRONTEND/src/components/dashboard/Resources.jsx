@@ -20,4 +20,16 @@ const Clients = () => {
         {
             id: 2,
             name: 'DesignHub Co',
+            projects: 2,
+            revenue: 32000,
+            avgDeliveryTime: 18,
+            satisfactionScore: 18,
+            riskScore: 0.25
+        },
+        {
+            id: 3,
+            name: 'StartupXYZ',
+            projects: 4,
+            revenue: 28000,
+            
         },    
