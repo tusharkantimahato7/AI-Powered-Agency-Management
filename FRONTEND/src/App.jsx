@@ -1,13 +1,12 @@
-import React,{useState, UseState} from 'react';
-import Overview from './components/Dashboard/Overview';
-import Predictions from './components/Dashboard/Predications';
-import Resources from './components/Dashboard/Resources';
+import { BrowserRouter } from 'react-router-dom';
+import { authProvider } from './context/AuthContext';
+import { ThemeProvider} from './contex/ThemeProvider';
+import AppRoutes from './routes';
+import MainLayout from './components/layout/MainLayout/MainLayout';
 
-function App() {
-  //This kepps track of which tab is currently open 
-  const [activeTab, setActiveTab] = useState('Overview');
 
-  return(
-    <div className="Min-h-screen bg-gradient-to-br from-slate-50 to-100"
-  )
+export default function App() {
+  return (
+   <BrowserRouter             //  
+  );
 }
