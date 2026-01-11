@@ -14,7 +14,7 @@ const PredictionCard = ({ title,Value,confidence,icon,onclick}) => {
         tabIndex={0}
         onKeyDown={(e) => e.key === "Enter" && onClick && onClick()}
         >
-            {icon && <div class name {     // Help Fixing error
+            {icon && <div class name {     // Help Fixing error and thinking 
                 constructor(parameters) {
                     
                 }
